@@ -8,7 +8,7 @@ export default class Team {
     let index = 0;
     return {
       next() {
-        if (team.length > 5) {
+        if (index > entries.length) {
           return {
             value: undefined,
             done: true,
