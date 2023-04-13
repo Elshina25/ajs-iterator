@@ -1,5 +1,5 @@
-import Character from "./Character";
-import Team from "./Team";
+import Character from './Character';
+import Team from './Team';
 
 const zombie = new Character('Зомби', 'Zombie', 60, 4, 20, 30);
 const magician = new Character('Маг', 'Magician', 50, 5, 50, 10);
@@ -16,7 +16,3 @@ console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
-
-
-
-
